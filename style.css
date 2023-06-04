@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+#pong {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+}
+
+.paddle {
+    position: absolute;
+    width: 70px;
+    height: 193px;
+}
+
+#player1 {
+    left: 0;
+    background-color: white;
+}
+
+#player2 {
+    right: 0;
+    background-color: white;
+}
+
+#ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+}
